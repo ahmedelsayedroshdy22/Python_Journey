@@ -11,4 +11,4 @@ for i in mylist:
      print(f"Value for each variable   : {len(i)}" )
 
     except:
-       print(f"No length for the value {i}  " )
+       print(f"No length for the value {i}" )
