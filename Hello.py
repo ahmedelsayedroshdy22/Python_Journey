@@ -1,14 +1,9 @@
-Age = 30 
-Height = 184.5 
-Name = "Ahmed"
-Student = False
-No_Value = None 
 
-mylist = [Age , Height , Name , Student , No_Value]
+Name = "968-maria, (D@t@ Engineer ) ;; 27y  "
 
-for i in mylist:
-    try: 
-     print(f"Value for each variable   : {len(i)}" )
+New= Name.strip().replace("968-", "").replace("@", "a").replace(";;", "").replace("(", "").replace(")", "").split(",")
+Age = New[1].strip().split("  ")
 
-    except:
-       print(f"No length for the value {i}" )
+
+
+print(f"Age: {Age}")
