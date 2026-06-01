@@ -20,7 +20,7 @@ params = {
     # "webRtcEnabled": False,
 }
 
-response = requests.get(url, headers=headers, params=params)
+response = requests.get(url=url , params=params , headers=headers)
 
 print(f"Status: {response.status_code}")
 
