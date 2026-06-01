@@ -1,5 +1,5 @@
 
-=import requests
+import requests
 
 url = "https://api.voxbone.com/v1/inventory/did"
 
